@@ -108,9 +108,12 @@ footer{
     justify-content: flex-end;
     gap: 1rem;
 }
-footer i:hover{
+footer a:hover{
     color: var(--SoftMagenta);
     border: 2px solid var(--SoftMagenta);
+}
+footer i:hover{
+    color: var(--SoftMagenta);
 }
 @media(max-width:415px){
     main{
